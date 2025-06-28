@@ -76,7 +76,7 @@ MATRIC NUMBER: MEC245051
     #     - Python
     #     - pandas, matplotlib, seaborn, scikit-learn, tensorflow, tqdm, opencv-python, icrawler
 
-    # GitHub: 
+    # GitHub: https://github.com/CTMX-Zhen/Project_2_fruits_and_vegetables_recognition_model
     
 """
     STUDENT'S OUTCOMES
