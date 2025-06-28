@@ -1,0 +1,1 @@
+Baseline Model - ROC AUC Score (macro, ovr): 0.9954

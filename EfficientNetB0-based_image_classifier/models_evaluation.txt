@@ -1,0 +1,264 @@
+2025-06-28 15:28:41,295 - INFO - Starting dataset loading...
+2025-06-28 15:28:41,351 - INFO - Evaluating models...
+2025-06-28 15:28:41,352 - INFO - Loading Baseline Model...
+2025-06-28 15:28:52,554 - INFO - === Baseline Model - Classification Report ===
+2025-06-28 15:28:52,559 - INFO - 
+               precision    recall  f1-score   support
+
+        apple       0.88      0.70      0.78        10
+       banana       1.00      0.78      0.88         9
+     beetroot       1.00      1.00      1.00        10
+  bell pepper       0.54      0.70      0.61        10
+      cabbage       1.00      1.00      1.00        10
+     capsicum       0.45      0.50      0.48        10
+       carrot       0.77      1.00      0.87        10
+  cauliflower       1.00      1.00      1.00        10
+chilli pepper       0.64      0.70      0.67        10
+         corn       1.00      0.30      0.46        10
+     cucumber       0.77      1.00      0.87        10
+     eggplant       1.00      1.00      1.00        10
+       garlic       0.90      0.90      0.90        10
+       ginger       0.89      0.80      0.84        10
+       grapes       1.00      1.00      1.00        10
+     jalepeno       0.78      0.70      0.74        10
+         kiwi       1.00      1.00      1.00        10
+        lemon       0.75      0.90      0.82        10
+      lettuce       1.00      0.90      0.95        10
+        mango       1.00      0.70      0.82        10
+        onion       0.90      0.90      0.90        10
+       orange       0.88      0.70      0.78        10
+      paprika       1.00      0.50      0.67        10
+         pear       0.71      1.00      0.83        10
+         peas       1.00      1.00      1.00        10
+    pineapple       1.00      1.00      1.00        10
+  pomegranate       1.00      0.90      0.95        10
+       potato       0.78      0.70      0.74        10
+      raddish       1.00      0.80      0.89        10
+    soy beans       0.91      1.00      0.95        10
+      spinach       0.91      1.00      0.95        10
+    sweetcorn       0.59      1.00      0.74        10
+  sweetpotato       0.91      1.00      0.95        10
+       tomato       0.82      0.90      0.86        10
+       turnip       1.00      1.00      1.00        10
+   watermelon       1.00      1.00      1.00        10
+
+     accuracy                           0.86       359
+    macro avg       0.88      0.86      0.86       359
+ weighted avg       0.88      0.86      0.86       359
+
+2025-06-28 15:28:52,575 - INFO - Baseline Model - ROC AUC Score (macro, ovr): 0.9954
+2025-06-28 15:28:53,582 - INFO - Baseline Model - Overall Accuracy: 86.07%
+2025-06-28 15:28:53,611 - INFO - Baseline Model - Per-class Summary:
+   true_class  total  correct  accuracy
+        apple   10.0      7.0  0.700000
+       banana    9.0      7.0  0.777778
+     beetroot   10.0     10.0  1.000000
+  bell pepper   10.0      7.0  0.700000
+      cabbage   10.0     10.0  1.000000
+     capsicum   10.0      5.0  0.500000
+       carrot   10.0     10.0  1.000000
+  cauliflower   10.0     10.0  1.000000
+chilli pepper   10.0      7.0  0.700000
+         corn   10.0      3.0  0.300000
+     cucumber   10.0     10.0  1.000000
+     eggplant   10.0     10.0  1.000000
+       garlic   10.0      9.0  0.900000
+       ginger   10.0      8.0  0.800000
+       grapes   10.0     10.0  1.000000
+     jalepeno   10.0      7.0  0.700000
+         kiwi   10.0     10.0  1.000000
+        lemon   10.0      9.0  0.900000
+      lettuce   10.0      9.0  0.900000
+        mango   10.0      7.0  0.700000
+        onion   10.0      9.0  0.900000
+       orange   10.0      7.0  0.700000
+      paprika   10.0      5.0  0.500000
+         pear   10.0     10.0  1.000000
+         peas   10.0     10.0  1.000000
+    pineapple   10.0     10.0  1.000000
+  pomegranate   10.0      9.0  0.900000
+       potato   10.0      7.0  0.700000
+      raddish   10.0      8.0  0.800000
+    soy beans   10.0     10.0  1.000000
+      spinach   10.0     10.0  1.000000
+    sweetcorn   10.0     10.0  1.000000
+  sweetpotato   10.0     10.0  1.000000
+       tomato   10.0      9.0  0.900000
+       turnip   10.0     10.0  1.000000
+   watermelon   10.0     10.0  1.000000
+2025-06-28 15:28:55,968 - INFO - Baseline Model - Saved per-class accuracy chart and CSV.
+2025-06-28 15:28:55,970 - INFO - Loading Fine-tuned Model...
+2025-06-28 15:29:06,982 - INFO - === Fine-tuned Model - Classification Report ===
+2025-06-28 15:29:06,988 - INFO - 
+               precision    recall  f1-score   support
+
+        apple       1.00      0.70      0.82        10
+       banana       0.88      0.78      0.82         9
+     beetroot       0.83      1.00      0.91        10
+  bell pepper       0.57      0.80      0.67        10
+      cabbage       1.00      1.00      1.00        10
+     capsicum       0.60      0.30      0.40        10
+       carrot       0.77      1.00      0.87        10
+  cauliflower       1.00      1.00      1.00        10
+chilli pepper       0.70      0.70      0.70        10
+         corn       1.00      0.30      0.46        10
+     cucumber       0.77      1.00      0.87        10
+     eggplant       0.91      1.00      0.95        10
+       garlic       1.00      1.00      1.00        10
+       ginger       0.91      1.00      0.95        10
+       grapes       1.00      0.90      0.95        10
+     jalepeno       0.80      0.80      0.80        10
+         kiwi       1.00      1.00      1.00        10
+        lemon       0.90      0.90      0.90        10
+      lettuce       1.00      0.90      0.95        10
+        mango       1.00      0.50      0.67        10
+        onion       0.91      1.00      0.95        10
+       orange       1.00      0.90      0.95        10
+      paprika       1.00      0.70      0.82        10
+         pear       0.83      1.00      0.91        10
+         peas       1.00      0.80      0.89        10
+    pineapple       1.00      1.00      1.00        10
+  pomegranate       1.00      1.00      1.00        10
+       potato       0.67      0.60      0.63        10
+      raddish       1.00      0.80      0.89        10
+    soy beans       0.83      1.00      0.91        10
+      spinach       0.91      1.00      0.95        10
+    sweetcorn       0.59      1.00      0.74        10
+  sweetpotato       0.77      1.00      0.87        10
+       tomato       0.83      1.00      0.91        10
+       turnip       1.00      1.00      1.00        10
+   watermelon       1.00      1.00      1.00        10
+
+     accuracy                           0.87       359
+    macro avg       0.89      0.87      0.86       359
+ weighted avg       0.89      0.87      0.86       359
+
+2025-06-28 15:29:07,005 - INFO - Fine-tuned Model - ROC AUC Score (macro, ovr): 0.9964
+2025-06-28 15:29:08,820 - INFO - Fine-tuned Model - Overall Accuracy: 87.19%
+2025-06-28 15:29:08,842 - INFO - Fine-tuned Model - Per-class Summary:
+   true_class  total  correct  accuracy
+        apple   10.0      7.0  0.700000
+       banana    9.0      7.0  0.777778
+     beetroot   10.0     10.0  1.000000
+  bell pepper   10.0      8.0  0.800000
+      cabbage   10.0     10.0  1.000000
+     capsicum   10.0      3.0  0.300000
+       carrot   10.0     10.0  1.000000
+  cauliflower   10.0     10.0  1.000000
+chilli pepper   10.0      7.0  0.700000
+         corn   10.0      3.0  0.300000
+     cucumber   10.0     10.0  1.000000
+     eggplant   10.0     10.0  1.000000
+       garlic   10.0     10.0  1.000000
+       ginger   10.0     10.0  1.000000
+       grapes   10.0      9.0  0.900000
+     jalepeno   10.0      8.0  0.800000
+         kiwi   10.0     10.0  1.000000
+        lemon   10.0      9.0  0.900000
+      lettuce   10.0      9.0  0.900000
+        mango   10.0      5.0  0.500000
+        onion   10.0     10.0  1.000000
+       orange   10.0      9.0  0.900000
+      paprika   10.0      7.0  0.700000
+         pear   10.0     10.0  1.000000
+         peas   10.0      8.0  0.800000
+    pineapple   10.0     10.0  1.000000
+  pomegranate   10.0     10.0  1.000000
+       potato   10.0      6.0  0.600000
+      raddish   10.0      8.0  0.800000
+    soy beans   10.0     10.0  1.000000
+      spinach   10.0     10.0  1.000000
+    sweetcorn   10.0     10.0  1.000000
+  sweetpotato   10.0     10.0  1.000000
+       tomato   10.0     10.0  1.000000
+       turnip   10.0     10.0  1.000000
+   watermelon   10.0     10.0  1.000000
+2025-06-28 15:29:12,085 - INFO - Fine-tuned Model - Saved per-class accuracy chart and CSV.
+2025-06-28 15:29:12,086 - INFO - Loading Data Augmentation Model...
+2025-06-28 15:29:22,166 - INFO - === Data Augmentation Model - Classification Report ===
+2025-06-28 15:29:22,173 - INFO - 
+               precision    recall  f1-score   support
+
+        apple       1.00      0.70      0.82        10
+       banana       1.00      0.78      0.88         9
+     beetroot       0.83      1.00      0.91        10
+  bell pepper       0.45      0.90      0.60        10
+      cabbage       1.00      1.00      1.00        10
+     capsicum       0.00      0.00      0.00        10
+       carrot       0.83      1.00      0.91        10
+  cauliflower       1.00      1.00      1.00        10
+chilli pepper       0.88      0.70      0.78        10
+         corn       1.00      0.30      0.46        10
+     cucumber       0.77      1.00      0.87        10
+     eggplant       0.91      1.00      0.95        10
+       garlic       1.00      1.00      1.00        10
+       ginger       1.00      1.00      1.00        10
+       grapes       1.00      0.90      0.95        10
+     jalepeno       0.62      0.80      0.70        10
+         kiwi       1.00      1.00      1.00        10
+        lemon       0.77      1.00      0.87        10
+      lettuce       1.00      0.90      0.95        10
+        mango       1.00      0.80      0.89        10
+        onion       1.00      1.00      1.00        10
+       orange       1.00      0.80      0.89        10
+      paprika       1.00      0.50      0.67        10
+         pear       0.83      1.00      0.91        10
+         peas       1.00      1.00      1.00        10
+    pineapple       1.00      1.00      1.00        10
+  pomegranate       1.00      1.00      1.00        10
+       potato       0.89      0.80      0.84        10
+      raddish       1.00      0.80      0.89        10
+    soy beans       1.00      1.00      1.00        10
+      spinach       0.91      1.00      0.95        10
+    sweetcorn       0.59      1.00      0.74        10
+  sweetpotato       0.91      1.00      0.95        10
+       tomato       0.91      1.00      0.95        10
+       turnip       1.00      1.00      1.00        10
+   watermelon       1.00      1.00      1.00        10
+
+     accuracy                           0.88       359
+    macro avg       0.89      0.88      0.87       359
+ weighted avg       0.89      0.88      0.87       359
+
+2025-06-28 15:29:22,188 - INFO - Data Augmentation Model - ROC AUC Score (macro, ovr): 0.9976
+2025-06-28 15:29:23,209 - INFO - Data Augmentation Model - Overall Accuracy: 88.02%
+2025-06-28 15:29:23,226 - INFO - Data Augmentation Model - Per-class Summary:
+   true_class  total  correct  accuracy
+        apple   10.0      7.0  0.700000
+       banana    9.0      7.0  0.777778
+     beetroot   10.0     10.0  1.000000
+  bell pepper   10.0      9.0  0.900000
+      cabbage   10.0     10.0  1.000000
+     capsicum   10.0      0.0  0.000000
+       carrot   10.0     10.0  1.000000
+  cauliflower   10.0     10.0  1.000000
+chilli pepper   10.0      7.0  0.700000
+         corn   10.0      3.0  0.300000
+     cucumber   10.0     10.0  1.000000
+     eggplant   10.0     10.0  1.000000
+       garlic   10.0     10.0  1.000000
+       ginger   10.0     10.0  1.000000
+       grapes   10.0      9.0  0.900000
+     jalepeno   10.0      8.0  0.800000
+         kiwi   10.0     10.0  1.000000
+        lemon   10.0     10.0  1.000000
+      lettuce   10.0      9.0  0.900000
+        mango   10.0      8.0  0.800000
+        onion   10.0     10.0  1.000000
+       orange   10.0      8.0  0.800000
+      paprika   10.0      5.0  0.500000
+         pear   10.0     10.0  1.000000
+         peas   10.0     10.0  1.000000
+    pineapple   10.0     10.0  1.000000
+  pomegranate   10.0     10.0  1.000000
+       potato   10.0      8.0  0.800000
+      raddish   10.0      8.0  0.800000
+    soy beans   10.0     10.0  1.000000
+      spinach   10.0     10.0  1.000000
+    sweetcorn   10.0     10.0  1.000000
+  sweetpotato   10.0     10.0  1.000000
+       tomato   10.0     10.0  1.000000
+       turnip   10.0     10.0  1.000000
+   watermelon   10.0     10.0  1.000000
+2025-06-28 15:29:26,010 - INFO - Data Augmentation Model - Saved per-class accuracy chart and CSV.
+2025-06-28 15:29:26,011 - INFO - All done!

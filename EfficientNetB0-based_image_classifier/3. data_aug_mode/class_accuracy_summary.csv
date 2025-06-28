@@ -1,0 +1,37 @@
+true_class,total,correct,accuracy
+apple,10.0,7.0,0.7
+banana,9.0,7.0,0.7777777777777778
+beetroot,10.0,10.0,1.0
+bell pepper,10.0,9.0,0.9
+cabbage,10.0,10.0,1.0
+capsicum,10.0,0.0,0.0
+carrot,10.0,10.0,1.0
+cauliflower,10.0,10.0,1.0
+chilli pepper,10.0,7.0,0.7
+corn,10.0,3.0,0.3
+cucumber,10.0,10.0,1.0
+eggplant,10.0,10.0,1.0
+garlic,10.0,10.0,1.0
+ginger,10.0,10.0,1.0
+grapes,10.0,9.0,0.9
+jalepeno,10.0,8.0,0.8
+kiwi,10.0,10.0,1.0
+lemon,10.0,10.0,1.0
+lettuce,10.0,9.0,0.9
+mango,10.0,8.0,0.8
+onion,10.0,10.0,1.0
+orange,10.0,8.0,0.8
+paprika,10.0,5.0,0.5
+pear,10.0,10.0,1.0
+peas,10.0,10.0,1.0
+pineapple,10.0,10.0,1.0
+pomegranate,10.0,10.0,1.0
+potato,10.0,8.0,0.8
+raddish,10.0,8.0,0.8
+soy beans,10.0,10.0,1.0
+spinach,10.0,10.0,1.0
+sweetcorn,10.0,10.0,1.0
+sweetpotato,10.0,10.0,1.0
+tomato,10.0,10.0,1.0
+turnip,10.0,10.0,1.0
+watermelon,10.0,10.0,1.0
