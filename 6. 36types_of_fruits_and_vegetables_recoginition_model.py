@@ -67,7 +67,7 @@ MATRIC NUMBER: MEC245051
 
     # 6. Use 'icrawler' to download 3 images for each class from Google
     #     - Load the best model trained
-    #     - Test these 3 unseen images (real life images) that dowloaded from Google
+    #     - Test these 3 unseen images (real life images) that downloaded from Google
     #     - To check overall accuracy of the best model
 
     # 6. Platform: offline AI tools & code your own solution
@@ -76,7 +76,7 @@ MATRIC NUMBER: MEC245051
     #     - Python
     #     - pandas, matplotlib, seaborn, scikit-learn, tensorflow, tqdm, opencv-python, icrawler
 
-    # GitHub: https://github.com/CTMX-Zhen/Project_2_fruits_and_vegetables_recognition_model
+    # GitHub: https://github.com/CTMX-Zhen/Project_2_fruits_and_vegetables_recognition_model_CTMX
     
 """
     STUDENT'S OUTCOMES
